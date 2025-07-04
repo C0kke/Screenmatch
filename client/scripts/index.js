@@ -22,7 +22,7 @@ function crearListaPeliculas(elemento, datos) {
     ul.className = 'lista';
     const listaHTML = datos.map((pelicula) => `
         <li>
-            <a href="/CursoAlura/2086-screenmatch-front-end-main/detalles.html?id=${pelicula.id}">
+            <a href="/screenmatch/client/detalles.html?id=${pelicula.id}">
                 <img src="${pelicula.poster}" alt="${pelicula.titulo}">
             </a>
         </li>
